@@ -1,0 +1,18 @@
+A 4KB jQuery plugin for generating noisy background for HTML elements using Canvas, with a few options.
+
+
+EXAMPLE:
+
+	$('body').noiser({
+		opacity:  0.5, // opacity from 0-1, defaulted to 0.1
+		contrast: 20,  // noise strength from 0-255, defaulted to 120
+		red:      111, // add red from 0-255, defaulted to 0
+		green:    126, // add green from 0-255, defaulted to 0
+		blue:     144, // add blue from 0-255, defaulted to 0
+		size:     100  // dimensions of the generated background image, defaulted to 75
+	});
+
+
+LICENCE
+
+	MIT (http://www.opensource.org/licenses/mit-license.php)

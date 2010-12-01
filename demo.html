@@ -1,0 +1,21 @@
+<!DOCTYPE html>  
+<html>
+	<head>
+		<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="./jquery.noiser.min.js"></script>
+		<script>			
+			$(function(){
+				$('body').noiser({
+					opacity:  0.5, // opacity from 0-1, defaulted to 0.1
+					contrast: 20,  // noise strength from 0-255, defaulted to 120
+					red:      111, // add red from 0-255, defaulted to 0
+					green:    126, // add green from 0-255, defaulted to 0
+					blue:     144, // add blue from 0-255, defaulted to 0
+					size:     100  // dimensions of the generated background image, defaulted to 75
+				});
+			});
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
