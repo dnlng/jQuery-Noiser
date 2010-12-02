@@ -9,7 +9,7 @@ EXAMPLE:
 		red:      111, // add red from 0-255, defaulted to 0
 		green:    126, // add green from 0-255, defaulted to 0
 		blue:     144, // add blue from 0-255, defaulted to 0
-		size:     100  // dimensions of the generated background image, defaulted to 75
+		size:     100  // dimensions of the generated background image, defaulted to 60
 	});
 
 
