@@ -26,7 +26,8 @@
 					ctx.fillRect(x, y, 1, 1);
 				}
 			}
-			$(this).css({'background-image': 'url(' + canvas.toDataURL('image/png') + ')'});			
+			$(this).css({'background-image': 'url(' + canvas.toDataURL('image/png') + ')'});
 		}
+		return $(this);
 	};
 })(jQuery);
